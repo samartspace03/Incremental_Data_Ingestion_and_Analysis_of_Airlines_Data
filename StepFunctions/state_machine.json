@@ -1,0 +1,58 @@
+"// input //"
+
+{
+  "AllocatedCapacity": 2,
+  "Attempt": 0,
+  "CompletedOn": 1771183009294,
+  "ExecutionClass": "STANDARD",
+  "ExecutionTime": 85,
+  "GlueVersion": "5.0",
+  "Id": "jr_6de47ea5182e73e51ce7fe02daca87c6f5c3987b61ede28755c34a1e5633210e",
+  "JobMode": "SCRIPT",
+  "JobName": "flight_data_ingestion",
+  "JobRunState": "SUCCEEDED",
+  "LastModifiedOn": 1771183009294,
+  "LogGroupName": "/aws-glue/jobs",
+  "MaxCapacity": 2,
+  "NumberOfWorkers": 2,
+  "PredecessorRuns": [],
+  "StartedOn": 1771182905440,
+  "Timeout": 480,
+  "WorkerType": "G.1X"
+}
+
+"// output //"
+
+{
+  "MessageId": "89a2e880-be89-5a1e-b857-8a8ca3655157",
+  "SdkHttpMetadata": {
+    "AllHttpHeaders": {
+      "x-amzn-RequestId": [
+        "7d94feaa-3683-4f1c-b9f6-963ddd0a3107"
+      ],
+      "connection": [
+        "keep-alive"
+      ],
+      "Content-Length": [
+        "294"
+      ],
+      "Date": [
+        "Sun, 15 Feb 2026 19:17:00 GMT"
+      ],
+      "Content-Type": [
+        "text/xml"
+      ]
+    },
+    "HttpHeaders": {
+      "connection": "keep-alive",
+      "Content-Length": "294",
+      "Content-Type": "text/xml",
+      "Date": "Sun, 15 Feb 2026 19:17:00 GMT",
+      "x-amzn-RequestId": "7d94feaa-3683-4f1c-b9f6-963ddd0a3107"
+    },
+    "HttpStatusCode": 200
+  },
+  "SdkResponseMetadata": {
+    "RequestId": "7d94feaa-3683-4f1c-b9f6-963ddd0a3107"
+  }
+}
