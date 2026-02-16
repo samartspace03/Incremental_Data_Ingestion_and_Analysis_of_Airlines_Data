@@ -34,3 +34,8 @@ CREATE TABLE airlines.daily_flights_fact (
 );
 select * from  airlines.daily_flights_fact limit 3;
 select * from airlines.airports_dim  limit 5;
+
+
+
+ALTER TABLE airlines.daily_flights_fact
+DROP COLUMN dep_airport;
